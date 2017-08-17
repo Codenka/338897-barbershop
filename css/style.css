@@ -1,3 +1,79 @@
-body {
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+html, body {
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+    
     background-color: #323232;
+}
+
+h1, h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.main-header a {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.features h3 {
+    font-size: 30px;
+    line-height: 42px;
+    color: #f7f4f1;
+}
+
+.features p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #f7f4f1;
+}
+
+.news p, 
+.contacts p,
+.appointment p,
+.product-info p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.main-footer p,
+.main-footer b {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.modal h2 {
+    font-size: 30px;
+    line-height: auto;
+}
+
+.modal p {
+    font-size: 14px;
+    line-height: auto;
+}
+
+
+.catalog-category {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: none;
+}
+
+.catalog-item-title {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.product-info h3 {
+    font-size: 24px;
+    line-height: 30px;
 }
